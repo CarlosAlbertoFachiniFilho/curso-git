@@ -25,6 +25,18 @@ ls -> mostra o conteúdo da pasta
 cd /c -> muda para o diretório c:
 touch arquivo.txt -> cria o arquivo.txt no diretório atual
 
+para criar repositorio remoto:
+primeiro cria-se o repositório pelo sistema
+
+git remote add origin <endereço http do repositorio>
+
+
+para visualisar repositorio adicionado
+git remote -v
+
+para subir os arquivos comitados
+git push -u origin master
+
 
 
 
