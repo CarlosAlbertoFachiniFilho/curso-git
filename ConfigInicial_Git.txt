@@ -31,11 +31,23 @@ primeiro cria-se o repositório pelo sistema
 git remote add origin <endereço http do repositorio>
 
 
-para visualisar repositorio adicionado
+para visualizar repositorio adicionado
 git remote -v
 
 para subir os arquivos comitados
 git push -u origin master
+
+Criar branch
+git branch nomeDaBranch
+
+Visualizar branchs
+git branch
+
+mudar de branch
+git checkout nomeDaBranch
+
+criar uma branch e ja mudar para ela automaticamente
+git checkout -b nomeDaBranch
 
 
 
