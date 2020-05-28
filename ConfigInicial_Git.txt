@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=SOxafinthys
+
+git config --global user.name "seu nome"
+
+git config --global user.email "seu email"
+
+para testar
+
+git config user.name
+
+git config user.email
+
+comando para visualizar o editor padrão do git
+
+git config core.editor
+
+Se quiser mudar o editor
+
+git config --global core.editor "caminho .exe do editor no sistema"
+
+comandos bash
+pwd -> mostra o diretorio atual
+mkdir -> cria uma pasta 
+ls -> mostra o conteúdo da pasta
+cd /c -> muda para o diretório c:
+touch arquivo.txt -> cria o arquivo.txt no diretório atual
+
+
+
+
