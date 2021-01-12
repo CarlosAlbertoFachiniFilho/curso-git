@@ -38,5 +38,21 @@ para subir os arquivos comitados
 git push -u origin master
 
 
+para fetch de um commit específico
+git fetch origin "número do SHA do commit específico"
+
+git checkout FETCH_HEAD
+
+a partir daqui podemos descartar as mudanças e voltar para o último commit -> git checkout master
+
+ou
+
+criar uma nova branch com as mudanças no commit antigo => git checkout -b "nova Branch"
+
+git push --all
+
+
+
+
 
 
